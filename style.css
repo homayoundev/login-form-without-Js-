@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #e7e4da;
+}
+
+.form {
+  width: 300px;
+  height: 70vh;
+  margin: 3rem auto;
+  background-color: #F5F5F5;
+  box-shadow: 2px 2px 10px #aaa;
+}
+
+.forms{
+  height: 80%;
+}
+
+.form-tabs{
+display: flex;
+height:15%;
+}
+
+.login-tab {
+  width: 50%;
+  background: #F5F5F5;
+  color: #666;
+}
+
+.signup-tab {
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+  background: #dfdfdf;
+}
+
+.form-tabs h3{
+  margin: 1.25rem auto;
+  width: 50%;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+.form-tabs-link {
+  text-decoration: none;
+  color: #666;
+}
+
+.form-details {
+  height: 85%;
+  /* background-color: #F5F5F5; */
+
+}
+
+.signup-detail {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 70%;
+  margin: 1rem auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.email-input {
+margin: 1rem auto;
+}
+
+.password-input {
+  margin: 1rem auto;
+}
+.submit-input {
+  margin: 3rem auto;
+  width: 100px;
+}
+
+.input  {
+  font-size: 1rem;
+font-family: 'Roboto';
+padding: 0.5rem;
+}
+
+.submit {
+  background-color: #28A55F;
+  color: #eee;
+  padding: 0.5rem;
+  width: 100px;
+  font-family: 'Roboto';
+  border: none;
+  font-size: 1rem;
+}
+.submit:hover {
+  background: #326d38;
+  box-shadow: 0px 0px 8px #666;
+  transition: all 0.5s ease-out;
+}
+
+.input-icon {
+  margin-right: 0.75rem;
+  font-size: 20px;
+}
+
+.form-footer {
+  text-align: center;
+  font-family: 'Roboto';
+}
+.form-footer a {
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+}
+
+.terms {
+  color: #15f !important;
+  font-size: 0.75rem;
+}
